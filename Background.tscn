@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxx1t3lrt6xfq"]
+
+[ext_resource type="Texture2D" uid="uid://duqliyr8upctx" path="res://assets/grass4.png" id="1_5kunf"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Grass" type="Sprite2D" parent="."]
+position = Vector2(328, 184.5)
+scale = Vector2(1.18505, 1.19304)
+texture = ExtResource("1_5kunf")

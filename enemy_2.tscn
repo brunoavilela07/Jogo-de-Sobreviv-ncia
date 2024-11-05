@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4lexe37m6pl6"]
+
+[ext_resource type="PackedScene" uid="uid://hddhmdybtc04" path="res://Enemy_simple.tscn" id="1_wxixf"]
+[ext_resource type="Texture2D" uid="uid://bhv8bym7q1idv" path="res://assets/zombi2.png" id="2_csu40"]
+
+[node name="Enemy_2" instance=ExtResource("1_wxixf")]
+modulate = Color(0.686305, 0.624539, 0, 1)
+scale = Vector2(0.17, 0.17)
+texture = ExtResource("2_csu40")
+speed = 150
+hp = 2
+knockback = 1200
+screen_shake = 70
+
+[node name="CollisionShape2D" parent="HitBox" index="0"]
+position = Vector2(9.53674e-07, -2.94118)
